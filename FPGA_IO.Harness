@@ -1,0 +1,2 @@
+E-Link=elink0_p,elink0_n,elink1_p,elink1_n,elink2_p,elink2_n,elink3_p,elink3_n,elink4_p,elink4_n,elink5_p,elink5_n,elink6_p,elink6_n,elink7_p,elink7_n,elink8_p,elink8_n,elink9_p,elink9_n,elink10_p,elink10_n,elink11_p,elink11_n,elink12_p,elink12_n,elink13_p,elink13_n
+Samtec IO=XP1A_[40..1],XP1B_[40..1],XP1C_[40..1],XP1D_[40..1],XP2A_[40..1],XP2B_[40..1],XP2C_[40..1],XP2D_[40..1],XP3A_[40..1],XP3B_[40..1],XP3C_[40..1],XP3D_[40..1],XP4A_[40..1],XP4B_[40..1],XP4C_[40..1],XP4D_[40..1]
