@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=ALCT_MEZ_LX100.OutJob
 Description=
 TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
@@ -188,13 +188,13 @@ Configuration8_Item1=CaptionAsName
 Configuration8_Name2=Filter
 Configuration8_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration8_Name3=General
-Configuration8_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1493|FormHeight=895|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration8_Item3=OpenExported=False|AddToProject=True|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=1493|FormHeight=668|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
 Configuration8_Name4=GroupOrder
 Configuration8_Item4=Comment=True|Footprint=True
 Configuration8_Name5=OutputConfigurationParameter1
 Configuration8_Item5=??????
 Configuration8_Name6=SortOrder
-Configuration8_Item6=Designator=Up|Comment=Up|Footprint=Up
+Configuration8_Item6=Footprint=Down
 Configuration8_Name7=VisibleOrder
 Configuration8_Item7=Comment=100|Description=100|Designator=100|Footprint=100|LibRef=100|Manufacturer=100|Manufacturer Part Number=100|Quantity=100|Supplier 1=100|Supplier Part Number 1=100
 OutputType9=Schematic Print
