@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for ALCT_MEZ_LX100
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -938,7 +938,7 @@ StimStopTime=6E-8
 StimPeriodTime=1E-7
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for ALCT_MEZ_LX100
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -3202,11 +3202,11 @@ Net358=NetName=XP1B_21|NetColor=clBlue
 Net359=NetName=TP0_36|NetColor=$00FFFF6E
 Net360=NetName=XP1C_23|NetColor=clBlue
 Net361=NetName=IO.XP1A_33|NetColor=clBlue
-Net362=NetName=XP1A_21|NetColor=clBlue
-Net363=NetName=XP3B_7|NetColor=$009C9B34
+Net362=NetName=IO.XP1A_5|NetColor=clBlue
+Net363=NetName=XP1A_21|NetColor=clBlue
 Net364=NetName=IO.XP4D_28|NetColor=$006EFF6E
 Net365=NetName=XP4A_33|NetColor=$006EFF6E
-Net366=NetName=IO.XP1A_5|NetColor=clBlue
+Net366=NetName=XP3B_7|NetColor=$009C9B34
 Net367=NetName=XP2B_4|NetColor=$00FF6EFF
 Net368=NetName=IO.XP4C_13|NetColor=$006EFF6E
 Net369=NetName=IO.XP2A_15|NetColor=$00FF6EFF
@@ -3552,15 +3552,15 @@ Net708=NetName=IO.XP1B_30|NetColor=clBlue
 Net709=NetName=XP2D_18|NetColor=$00FF6EFF
 Net710=NetName=XP4C_2|NetColor=$006EFF6E
 Net711=NetName=XP2C_25|NetColor=$00FF6EFF
-Net712=NetName=IO.XP4D_25|NetColor=$006EFF6E
-Net713=NetName=XP3B_11|NetColor=$009C9B34
-Net714=NetName=XP3C_2|NetColor=$009C9B34
-Net715=NetName=gbt_prg_d4_p|NetColor=$00FFFF6E
-Net716=NetName=IO.XP4A_23|NetColor=$006EFF6E
-Net717=NetName=TP0_|NetColor=$0099FFFF
-Net718=NetName=IO.XP2A_33|NetColor=$00FF6EFF
+Net712=NetName=IO.XP1A_16|NetColor=clBlue
+Net713=NetName=IO.XP4C_40|NetColor=$006EFF6E
+Net714=NetName=IO.XP4C_6|NetColor=$006EFF6E
+Net715=NetName=IO.XP4D_25|NetColor=$006EFF6E
+Net716=NetName=XP3B_11|NetColor=$009C9B34
+Net717=NetName=IO.XP1B_22|NetColor=clBlue
+Net718=NetName=XP3C_2|NetColor=$009C9B34
 Net719=NetName=TP1_35|NetColor=$00FFFF6E
-Net720=NetName=IO.XP1A_16|NetColor=clBlue
+Net720=NetName=gbt_prg_d4_p|NetColor=$00FFFF6E
 Net721=NetName=XP3B_30|NetColor=$009C9B34
 Net722=NetName=XP4D_40|NetColor=$006EFF6E
 Net723=NetName=TP0_35|NetColor=$00FFFF6E
@@ -3573,12 +3573,12 @@ Net729=NetName=IO.XP4B_36|NetColor=$006EFF6E
 Net730=NetName=IO.XP1C_23|NetColor=clBlue
 Net731=NetName=IO.XP1C_29|NetColor=clBlue
 Net732=NetName=XP1A_22|NetColor=clBlue
-Net733=NetName=IO.XP4C_40|NetColor=$006EFF6E
+Net733=NetName=IO.XP4A_23|NetColor=$006EFF6E
 Net734=NetName=XP3A_32|NetColor=$009C9B34
 Net735=NetName=TP1_20|NetColor=clYellow
 Net736=NetName=XP3A_16|NetColor=$009C9B34
-Net737=NetName=IO.XP1B_22|NetColor=clBlue
-Net738=NetName=IO.XP4C_6|NetColor=$006EFF6E
+Net737=NetName=TP0_|NetColor=$0099FFFF
+Net738=NetName=IO.XP2A_33|NetColor=$00FF6EFF
 Net739=NetName=XP3A_11|NetColor=$009C9B34
 Net740=NetName=IO.XP4A_25|NetColor=$006EFF6E
 Net741=NetName=XP3B_13|NetColor=$009C9B34
