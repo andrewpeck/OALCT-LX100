@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for ALCT_MEZ_LX100
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -379,23 +379,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document21]
-DocumentPath=README.Txt
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document22]
 DocumentPath=Promless_Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -412,7 +395,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QALYCVPE
 
-[Document23]
+[Document22]
 DocumentPath=FPGA_Configuration.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -429,7 +412,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MYDQVEUQ
 
-[Document24]
+[Document23]
 DocumentPath=EEPROM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -446,7 +429,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ITGWIBIU
 
-[Document25]
+[Document24]
 DocumentPath=Source_Select.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -463,7 +446,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XJTJGXBK
 
-[Document26]
+[Document25]
 DocumentPath=GBTx_IO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -480,7 +463,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TQDKSCKL
 
-[Document27]
+[Document26]
 DocumentPath=Config_Clock.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -497,7 +480,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YOVVBSGN
 
-[Document28]
+[Document27]
 DocumentPath=XP2.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -514,7 +497,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GJDEXJRH
 
-[Document29]
+[Document28]
 DocumentPath=XP3.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -531,7 +514,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KKYVBJPJ
 
-[Document30]
+[Document29]
 DocumentPath=XP4.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -548,7 +531,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LWLNKNLQ
 
-[Document31]
+[Document30]
 DocumentPath=GBTx_Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -565,7 +548,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QAYUMBFY
 
-[Document32]
+[Document31]
 DocumentPath=GBTx_Control.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -582,7 +565,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WGMRPERK
 
-[Document33]
+[Document32]
 DocumentPath=GBTx_IO.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -599,7 +582,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document34]
+[Document33]
 DocumentPath=ALCT_MEZ_LX100.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -733,178 +716,170 @@ DocumentPath=Project Outputs for ALCT_MEZ_LX100\NC Drill\ALCT_MEZ_LX100.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=ALCT_MEZ_SPARTAN6.LOG
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=ALCT_MEZ_SPARTAN6.sdf
-DItemRevisionGUID=
-
-[GeneratedDocument32]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\BGA Escape Route - ALCT_MEZ_LX100.html
 DItemRevisionGUID=
 
-[GeneratedDocument33]
+[GeneratedDocument31]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\BOM\Bill of Materials-ALCT_MEZ_LX100.csv
 DItemRevisionGUID=
 
-[GeneratedDocument34]
+[GeneratedDocument32]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\comp_+_bot\components
 DItemRevisionGUID=
 
-[GeneratedDocument35]
+[GeneratedDocument33]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\comp_+_top\components
 DItemRevisionGUID=
 
-[GeneratedDocument36]
+[GeneratedDocument34]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
-[GeneratedDocument37]
+[GeneratedDocument35]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\_1v2\features
 DItemRevisionGUID=
 
-[GeneratedDocument38]
+[GeneratedDocument36]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\_1v8\features
 DItemRevisionGUID=
 
-[GeneratedDocument39]
+[GeneratedDocument37]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\_3v3\features
 DItemRevisionGUID=
 
-[GeneratedDocument40]
+[GeneratedDocument38]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\board_outline\features
 DItemRevisionGUID=
 
-[GeneratedDocument41]
+[GeneratedDocument39]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\bottom_layer\features
 DItemRevisionGUID=
 
-[GeneratedDocument42]
+[GeneratedDocument40]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\bottom_overlay\features
 DItemRevisionGUID=
 
-[GeneratedDocument43]
+[GeneratedDocument41]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\bottom_paste\features
 DItemRevisionGUID=
 
-[GeneratedDocument44]
+[GeneratedDocument42]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\bottom_solder\features
 DItemRevisionGUID=
 
-[GeneratedDocument45]
+[GeneratedDocument43]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\comp_+_bot\features
 DItemRevisionGUID=
 
-[GeneratedDocument46]
+[GeneratedDocument44]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\comp_+_top\features
 DItemRevisionGUID=
 
-[GeneratedDocument47]
+[GeneratedDocument45]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\drill\features
 DItemRevisionGUID=
 
-[GeneratedDocument48]
+[GeneratedDocument46]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\gnd1\features
 DItemRevisionGUID=
 
-[GeneratedDocument49]
+[GeneratedDocument47]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\gnd2\features
 DItemRevisionGUID=
 
-[GeneratedDocument50]
+[GeneratedDocument48]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\mid-layer_1\features
 DItemRevisionGUID=
 
-[GeneratedDocument51]
+[GeneratedDocument49]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\mid-layer_2\features
 DItemRevisionGUID=
 
-[GeneratedDocument52]
+[GeneratedDocument50]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\mid-layer_4\features
 DItemRevisionGUID=
 
-[GeneratedDocument53]
+[GeneratedDocument51]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\mid-layer_5\features
 DItemRevisionGUID=
 
-[GeneratedDocument54]
+[GeneratedDocument52]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\mid-layer_7\features
 DItemRevisionGUID=
 
-[GeneratedDocument55]
+[GeneratedDocument53]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\top_layer\features
 DItemRevisionGUID=
 
-[GeneratedDocument56]
+[GeneratedDocument54]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\top_overlay\features
 DItemRevisionGUID=
 
-[GeneratedDocument57]
+[GeneratedDocument55]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\top_paste\features
 DItemRevisionGUID=
 
-[GeneratedDocument58]
+[GeneratedDocument56]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\top_solder\features
 DItemRevisionGUID=
 
-[GeneratedDocument59]
+[GeneratedDocument57]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\symbols\rect23.622x27.5591xr2.9528_45\features
 DItemRevisionGUID=
 
-[GeneratedDocument60]
+[GeneratedDocument58]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\symbols\rect23.622x27.5591xr2.9528_270\features
 DItemRevisionGUID=
 
-[GeneratedDocument61]
+[GeneratedDocument59]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\symbols\rect23.622x27.5591xr2.9528_315\features
 DItemRevisionGUID=
 
-[GeneratedDocument62]
+[GeneratedDocument60]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\symbols\rect39.3701x39.3701xr4.9212_45\features
 DItemRevisionGUID=
 
-[GeneratedDocument63]
+[GeneratedDocument61]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\symbols\rect39.3701x39.3701xr4.9212_135\features
 DItemRevisionGUID=
 
-[GeneratedDocument64]
+[GeneratedDocument62]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\symbols\rect39.3701x39.3701xr4.9212_315\features
 DItemRevisionGUID=
 
-[GeneratedDocument65]
+[GeneratedDocument63]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\symbols\rect51.1811x59.0551xr6.3976_135\features
 DItemRevisionGUID=
 
-[GeneratedDocument66]
+[GeneratedDocument64]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\symbols\rect51.1811x59.0551xr6.3976_225\features
 DItemRevisionGUID=
 
-[GeneratedDocument67]
+[GeneratedDocument65]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\FPGA_IO.NET
 DItemRevisionGUID=
 
-[GeneratedDocument68]
+[GeneratedDocument66]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\matrix\matrix
 DItemRevisionGUID=
 
-[GeneratedDocument69]
+[GeneratedDocument67]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\netlists\cadnet\netlist
 DItemRevisionGUID=
 
-[GeneratedDocument70]
+[GeneratedDocument68]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\Pick Place\Pick Place for ALCT_MEZ_LX100.txt
 DItemRevisionGUID=
 
-[GeneratedDocument71]
+[GeneratedDocument69]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\profile
 DItemRevisionGUID=
 
-[GeneratedDocument72]
+[GeneratedDocument70]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\stephdr
 DItemRevisionGUID=
 
-[GeneratedDocument73]
+[GeneratedDocument71]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\ODB\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
@@ -1113,7 +1088,7 @@ StimStopTime=6E-8
 StimPeriodTime=1E-7
 
 [Generic_EDE]
-OutputDir=Project Outputs for ALCT_MEZ_LX100
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -3693,10 +3668,10 @@ Net359=NetName=TP0_36|NetColor=$00FFFF6E
 Net360=NetName=XP1C_23|NetColor=clBlue
 Net361=NetName=IO.XP1A_33|NetColor=clBlue
 Net362=NetName=IO.XP1A_5|NetColor=clBlue
-Net363=NetName=XP1A_21|NetColor=clBlue
+Net363=NetName=XP3B_7|NetColor=$009C9B34
 Net364=NetName=IO.XP4D_28|NetColor=$006EFF6E
 Net365=NetName=XP4A_33|NetColor=$006EFF6E
-Net366=NetName=XP3B_7|NetColor=$009C9B34
+Net366=NetName=XP1A_21|NetColor=clBlue
 Net367=NetName=XP2B_4|NetColor=$00FF6EFF
 Net368=NetName=IO.XP4C_13|NetColor=$006EFF6E
 Net369=NetName=IO.XP2A_15|NetColor=$00FF6EFF
@@ -4039,18 +4014,18 @@ Net705=NetName=tp0_30|NetColor=$0099FFFF
 Net706=NetName=IO.XP2A_13|NetColor=$00FF6EFF
 Net707=NetName=XP2A_19|NetColor=$00FF6EFF
 Net708=NetName=IO.XP1B_30|NetColor=clBlue
-Net709=NetName=XP2D_18|NetColor=$00FF6EFF
-Net710=NetName=XP4C_2|NetColor=$006EFF6E
-Net711=NetName=IO.XP4D_25|NetColor=$006EFF6E
-Net712=NetName=IO.XP1A_16|NetColor=clBlue
-Net713=NetName=gbt_prg_d4_p|NetColor=$00FFFF6E
-Net714=NetName=IO.XP4C_40|NetColor=$006EFF6E
-Net715=NetName=XP3B_11|NetColor=$009C9B34
-Net716=NetName=XP3C_2|NetColor=$009C9B34
-Net717=NetName=IO.XP1B_22|NetColor=clBlue
-Net718=NetName=IO.XP4C_6|NetColor=$006EFF6E
+Net709=NetName=XP2C_25|NetColor=$00FF6EFF
+Net710=NetName=XP2D_18|NetColor=$00FF6EFF
+Net711=NetName=XP4C_2|NetColor=$006EFF6E
+Net712=NetName=IO.XP4D_25|NetColor=$006EFF6E
+Net713=NetName=IO.XP1A_16|NetColor=clBlue
+Net714=NetName=gbt_prg_d4_p|NetColor=$00FFFF6E
+Net715=NetName=IO.XP4C_40|NetColor=$006EFF6E
+Net716=NetName=IO.XP4A_23|NetColor=$006EFF6E
+Net717=NetName=TP0_|NetColor=$0099FFFF
+Net718=NetName=IO.XP2A_33|NetColor=$00FF6EFF
 Net719=NetName=TP1_35|NetColor=$00FFFF6E
-Net720=NetName=XP2C_25|NetColor=$00FF6EFF
+Net720=NetName=XP3B_11|NetColor=$009C9B34
 Net721=NetName=XP3B_30|NetColor=$009C9B34
 Net722=NetName=XP4D_40|NetColor=$006EFF6E
 Net723=NetName=TP0_35|NetColor=$00FFFF6E
@@ -4063,12 +4038,12 @@ Net729=NetName=IO.XP4B_36|NetColor=$006EFF6E
 Net730=NetName=IO.XP1C_23|NetColor=clBlue
 Net731=NetName=IO.XP1C_29|NetColor=clBlue
 Net732=NetName=XP1A_22|NetColor=clBlue
-Net733=NetName=IO.XP4A_23|NetColor=$006EFF6E
+Net733=NetName=XP3C_2|NetColor=$009C9B34
 Net734=NetName=XP3A_32|NetColor=$009C9B34
 Net735=NetName=TP1_20|NetColor=clYellow
 Net736=NetName=XP3A_16|NetColor=$009C9B34
-Net737=NetName=TP0_|NetColor=$0099FFFF
-Net738=NetName=IO.XP2A_33|NetColor=$00FF6EFF
+Net737=NetName=IO.XP1B_22|NetColor=clBlue
+Net738=NetName=IO.XP4C_6|NetColor=$006EFF6E
 Net739=NetName=XP3A_11|NetColor=$009C9B34
 Net740=NetName=IO.XP4A_25|NetColor=$006EFF6E
 Net741=NetName=XP3B_13|NetColor=$009C9B34
