@@ -1,10 +1,10 @@
 UCLA High Energy Physics
 ------------------------
 
-Specifications 12/06/2017
+Specifications 01/26/2017
 
-Board:   MC_S6_LX100T
-Layout Version: 12/06/2017, rev 1 
+Board:   MC_S6_LX100
+Layout Version: 01/26/2017, rev 1
 
 Contact:
 --------
@@ -16,8 +16,7 @@ Los Angeles, CA 90095-1547
 
 Specifications:
 ---------------
-Board material:  TU-768
-Layers:          13
+Layers:          12
 Board thickness: 0.06256"
 Board size:      4.100" x 5.550"
 Trace width/gap  3.5/4.0 mils
@@ -97,31 +96,7 @@ Layer Extension     Layer Description
 .GM16               Board Outline                           
 ------------------------------------------------------------------------------------------
 
-----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: ALCT_MEZ_LX100.PcbDoc   12/7/17  5:40:06 PM
-----------------------------------------------------------------------------------------------------------------------------------
-
-Layer Pair : Top Layer to Bottom Layer
-ASCII RoundHoles File : ALCT_MEZ_LX100.TXT
-
-Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
-----------------------------------------------------------------------------------------------------------------------------------
-T1      10mil (0.254mm)                                           Round             1600      PTH        129.30inch (3284.22mm)
-T2      20mil (0.508mm)                                           Round             640       PTH        38.85inch (986.83mm)
-T3      35mil (0.889mm)                                           Round             12        PTH        14.99inch (380.86mm)
-T4      47mil (1.194mm)                                           Round             8         PTH        7.77inch (197.32mm)
-T5      61mil (1.55mm)                                            Round             2         PTH        0.38inch (9.60mm)
-T6      118mil (3mm)                                              Round             2         PTH        0.51inch (13.00mm)
-T7      200mil (5.08mm)                                           Round             4         PTH        7.80inch (198.12mm)
-T8      260mil (6.604mm)                                          Round             4         PTH        8.45inch (214.59mm)
-----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              2272
-
 Special Instructions:
 ---------------------
 (1) Thieving is not allowed; please inform me if thieving is required for any part of the PCB 
 (2) Fiducial dots are placed throughout the board; please inform me if additional dots are needed
-
-
-
-
