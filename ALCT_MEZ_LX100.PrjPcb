@@ -598,23 +598,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document34]
-DocumentPath=C:\Users\CMS\AppData\Local\Temp\Revisions\[Revision bc3d8fa34a8beae4d61a3dc416ba08ae1c7ae8aa] Connectors.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [GeneratedDocument1]
 DocumentPath=Project Outputs for ALCT_MEZ_LX100\NC Drill\ALCT_MEZ_LX100.DRR
 DItemRevisionGUID=
@@ -1219,7 +1202,7 @@ Configuration20_Item1=tVersion=0|Record=EdifView
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=NPI027C75 (HP Color LaserJet CP4520 Series)
+TargetPrinter=NPI14F13B (HP LaserJet 500 color M551)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -3760,10 +3743,10 @@ Net359=NetName=TP0_36|NetColor=$00FFFF6E
 Net360=NetName=XP1C_23|NetColor=clBlue
 Net361=NetName=IO.XP1A_33|NetColor=clBlue
 Net362=NetName=XP1A_21|NetColor=clBlue
-Net363=NetName=IO.XP1A_5|NetColor=clBlue
+Net363=NetName=XP3B_7|NetColor=$009C9B34
 Net364=NetName=IO.XP4D_28|NetColor=$006EFF6E
 Net365=NetName=XP4A_33|NetColor=$006EFF6E
-Net366=NetName=XP3B_7|NetColor=$009C9B34
+Net366=NetName=IO.XP1A_5|NetColor=clBlue
 Net367=NetName=XP2B_4|NetColor=$00FF6EFF
 Net368=NetName=IO.XP4C_13|NetColor=$006EFF6E
 Net369=NetName=IO.XP2A_15|NetColor=$00FF6EFF
@@ -4110,14 +4093,14 @@ Net709=NetName=XP2D_18|NetColor=$00FF6EFF
 Net710=NetName=XP4C_2|NetColor=$006EFF6E
 Net711=NetName=XP2C_25|NetColor=$00FF6EFF
 Net712=NetName=XP3B_11|NetColor=$009C9B34
-Net713=NetName=IO.XP4C_40|NetColor=$006EFF6E
-Net714=NetName=IO.XP4C_6|NetColor=$006EFF6E
-Net715=NetName=IO.XP4D_25|NetColor=$006EFF6E
-Net716=NetName=XP3C_2|NetColor=$009C9B34
-Net717=NetName=IO.XP1B_22|NetColor=clBlue
-Net718=NetName=IO.XP1A_16|NetColor=clBlue
+Net713=NetName=gbt_prg_d4_p|NetColor=$00FFFF6E
+Net714=NetName=IO.XP4C_40|NetColor=$006EFF6E
+Net715=NetName=IO.XP4C_6|NetColor=$006EFF6E
+Net716=NetName=IO.XP4A_23|NetColor=$006EFF6E
+Net717=NetName=TP0_|NetColor=$0099FFFF
+Net718=NetName=IO.XP2A_33|NetColor=$00FF6EFF
 Net719=NetName=TP1_35|NetColor=$00FFFF6E
-Net720=NetName=gbt_prg_d4_p|NetColor=$00FFFF6E
+Net720=NetName=IO.XP4D_25|NetColor=$006EFF6E
 Net721=NetName=XP3B_30|NetColor=$009C9B34
 Net722=NetName=XP4D_40|NetColor=$006EFF6E
 Net723=NetName=TP0_35|NetColor=$00FFFF6E
@@ -4130,12 +4113,12 @@ Net729=NetName=IO.XP4B_36|NetColor=$006EFF6E
 Net730=NetName=IO.XP1C_23|NetColor=clBlue
 Net731=NetName=IO.XP1C_29|NetColor=clBlue
 Net732=NetName=XP1A_22|NetColor=clBlue
-Net733=NetName=IO.XP4A_23|NetColor=$006EFF6E
+Net733=NetName=XP3C_2|NetColor=$009C9B34
 Net734=NetName=XP3A_32|NetColor=$009C9B34
 Net735=NetName=TP1_20|NetColor=clYellow
 Net736=NetName=XP3A_16|NetColor=$009C9B34
-Net737=NetName=TP0_|NetColor=$0099FFFF
-Net738=NetName=IO.XP2A_33|NetColor=$00FF6EFF
+Net737=NetName=IO.XP1B_22|NetColor=clBlue
+Net738=NetName=IO.XP1A_16|NetColor=clBlue
 Net739=NetName=XP3A_11|NetColor=$009C9B34
 Net740=NetName=IO.XP4A_25|NetColor=$006EFF6E
 Net741=NetName=XP3B_13|NetColor=$009C9B34

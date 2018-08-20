@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=ALCT_MEZ_LX100.OutJob
+Name=
 Description=
-TargetOutputMedium=PDF PCB Prints Combined
+TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Virtual Printer
+TargetPrinter=NPI14F13B (HP LaserJet 500 color M551)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -42,7 +42,7 @@ OutputName1=Gerber Files
 OutputCategory1=Fabrication
 OutputDocumentPath1=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName1=
-OutputEnabled1=0
+OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=0
@@ -57,7 +57,7 @@ OutputName2=NC Drill Files
 OutputCategory2=Fabrication
 OutputDocumentPath2=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName2=
-OutputEnabled2=0
+OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=0
@@ -72,17 +72,17 @@ OutputName3=ALCT_MEZ_LX100_Assembly_Top
 OutputCategory3=Assembly
 OutputDocumentPath3=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName3=
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
-OutputEnabled3_OutputMedium3=16
+OutputEnabled3_OutputMedium3=17
 OutputEnabled3_OutputMedium4=17
 OutputEnabled3_OutputMedium5=0
 OutputEnabled3_OutputMedium6=0
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
 Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491535|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration3_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration3_Name2=OutputConfigurationParameter2
 Configuration3_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top LayerAssembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=True
 Configuration3_Name3=OutputConfigurationParameter3
@@ -95,17 +95,17 @@ OutputName4=ALCT_MEZ_LX100_Assembly_Bottom
 OutputCategory4=Assembly
 OutputDocumentPath4=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName4=
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
-OutputEnabled4_OutputMedium3=17
+OutputEnabled4_OutputMedium3=18
 OutputEnabled4_OutputMedium4=18
 OutputEnabled4_OutputMedium5=0
 OutputEnabled4_OutputMedium6=0
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
 Configuration4_Name1=OutputConfigurationParameter1
-Configuration4_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491535|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration4_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration4_Name2=OutputConfigurationParameter2
 Configuration4_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=True|Name=Bottom LayerAssembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=True
 Configuration4_Name3=OutputConfigurationParameter3
@@ -118,7 +118,7 @@ OutputName5=Generates pick and place files
 OutputCategory5=Assembly
 OutputDocumentPath5=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName5=
-OutputEnabled5=0
+OutputEnabled5=1
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=0
@@ -149,7 +149,7 @@ OutputName7=MultiWire
 OutputCategory7=Netlist
 OutputDocumentPath7=
 OutputVariantName7=
-OutputEnabled7=0
+OutputEnabled7=1
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=0
@@ -164,7 +164,7 @@ OutputName8=Bill of Materials
 OutputCategory8=Report
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=0
+OutputEnabled8=1
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=0
@@ -224,17 +224,17 @@ OutputName11=ALCT_MEZ_LX100_pcb_print_lytop
 OutputCategory11=Documentation
 OutputDocumentPath11=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName11=
-OutputEnabled11=1
+OutputEnabled11=0
 OutputEnabled11_OutputMedium1=0
 OutputEnabled11_OutputMedium2=0
-OutputEnabled11_OutputMedium3=2
+OutputEnabled11_OutputMedium3=1
 OutputEnabled11_OutputMedium4=1
 OutputEnabled11_OutputMedium5=0
 OutputEnabled11_OutputMedium6=0
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
 Configuration11_Name1=OutputConfigurationParameter1
-Configuration11_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491535|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration11_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration11_Name2=OutputConfigurationParameter2
 Configuration11_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=False|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration11_Name3=OutputConfigurationParameter3
@@ -247,17 +247,17 @@ OutputName12=ALCT_MEZ_LX100_pcb_print_in1
 OutputCategory12=Documentation
 OutputDocumentPath12=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName12=
-OutputEnabled12=1
+OutputEnabled12=0
 OutputEnabled12_OutputMedium1=0
 OutputEnabled12_OutputMedium2=0
-OutputEnabled12_OutputMedium3=3
+OutputEnabled12_OutputMedium3=2
 OutputEnabled12_OutputMedium4=2
 OutputEnabled12_OutputMedium5=0
 OutputEnabled12_OutputMedium6=0
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
 Configuration12_Name1=OutputConfigurationParameter1
-Configuration12_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491496|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration12_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration12_Name2=OutputConfigurationParameter2
 Configuration12_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=False|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration12_Name3=OutputConfigurationParameter3
@@ -270,17 +270,17 @@ OutputName13=ALCT_MEZ_LX100_pcb_print_3v3
 OutputCategory13=Documentation
 OutputDocumentPath13=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName13=
-OutputEnabled13=1
+OutputEnabled13=0
 OutputEnabled13_OutputMedium1=0
 OutputEnabled13_OutputMedium2=0
-OutputEnabled13_OutputMedium3=4
+OutputEnabled13_OutputMedium3=3
 OutputEnabled13_OutputMedium4=3
 OutputEnabled13_OutputMedium5=0
 OutputEnabled13_OutputMedium6=0
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
 Configuration13_Name1=OutputConfigurationParameter1
-Configuration13_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491535|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration13_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration13_Name2=OutputConfigurationParameter2
 Configuration13_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration13_Name3=OutputConfigurationParameter3
@@ -293,17 +293,17 @@ OutputName14=ALCT_MEZ_LX100_pcb_print_in2
 OutputCategory14=Documentation
 OutputDocumentPath14=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName14=
-OutputEnabled14=1
+OutputEnabled14=0
 OutputEnabled14_OutputMedium1=0
 OutputEnabled14_OutputMedium2=0
-OutputEnabled14_OutputMedium3=5
+OutputEnabled14_OutputMedium3=4
 OutputEnabled14_OutputMedium4=4
 OutputEnabled14_OutputMedium5=0
 OutputEnabled14_OutputMedium6=0
 OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.07|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.06|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration14_Name1=OutputConfigurationParameter1
-Configuration14_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491496|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration14_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration14_Name2=OutputConfigurationParameter2
 Configuration14_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=False|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration14_Name3=OutputConfigurationParameter3
@@ -316,17 +316,17 @@ OutputName15=ALCT_MEZ_LX100_pcb_print_1v2
 OutputCategory15=Documentation
 OutputDocumentPath15=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName15=
-OutputEnabled15=1
+OutputEnabled15=0
 OutputEnabled15_OutputMedium1=0
 OutputEnabled15_OutputMedium2=0
-OutputEnabled15_OutputMedium3=6
+OutputEnabled15_OutputMedium3=5
 OutputEnabled15_OutputMedium4=5
 OutputEnabled15_OutputMedium5=0
 OutputEnabled15_OutputMedium6=0
 OutputDefault15=0
 PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
 Configuration15_Name1=OutputConfigurationParameter1
-Configuration15_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491535|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration15_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration15_Name2=OutputConfigurationParameter2
 Configuration15_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration15_Name3=OutputConfigurationParameter3
@@ -339,17 +339,17 @@ OutputName16=ALCT_MEZ_LX100_pcb_print_in4
 OutputCategory16=Documentation
 OutputDocumentPath16=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName16=
-OutputEnabled16=1
+OutputEnabled16=0
 OutputEnabled16_OutputMedium1=0
 OutputEnabled16_OutputMedium2=0
-OutputEnabled16_OutputMedium3=7
+OutputEnabled16_OutputMedium3=6
 OutputEnabled16_OutputMedium4=6
 OutputEnabled16_OutputMedium5=0
 OutputEnabled16_OutputMedium6=0
 OutputDefault16=0
 PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
 Configuration16_Name1=OutputConfigurationParameter1
-Configuration16_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491535|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration16_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration16_Name2=OutputConfigurationParameter2
 Configuration16_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=False|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration16_Name3=OutputConfigurationParameter3
@@ -362,17 +362,17 @@ OutputName17=ALCT_MEZ_LX100_pcb_print_1v8
 OutputCategory17=Documentation
 OutputDocumentPath17=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName17=
-OutputEnabled17=1
+OutputEnabled17=0
 OutputEnabled17_OutputMedium1=0
 OutputEnabled17_OutputMedium2=0
-OutputEnabled17_OutputMedium3=8
+OutputEnabled17_OutputMedium3=7
 OutputEnabled17_OutputMedium4=7
 OutputEnabled17_OutputMedium5=0
 OutputEnabled17_OutputMedium6=0
 OutputDefault17=0
 PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
 Configuration17_Name1=OutputConfigurationParameter1
-Configuration17_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491496|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration17_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration17_Name2=OutputConfigurationParameter2
 Configuration17_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration17_Name3=OutputConfigurationParameter3
@@ -385,17 +385,17 @@ OutputName18=ALCT_MEZ_LX100_pcb_print_in5
 OutputCategory18=Documentation
 OutputDocumentPath18=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName18=
-OutputEnabled18=1
+OutputEnabled18=0
 OutputEnabled18_OutputMedium1=0
 OutputEnabled18_OutputMedium2=0
-OutputEnabled18_OutputMedium3=9
+OutputEnabled18_OutputMedium3=8
 OutputEnabled18_OutputMedium4=8
 OutputEnabled18_OutputMedium5=0
 OutputEnabled18_OutputMedium6=0
 OutputDefault18=0
 PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
 Configuration18_Name1=OutputConfigurationParameter1
-Configuration18_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491496|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration18_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration18_Name2=OutputConfigurationParameter2
 Configuration18_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=False|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration18_Name3=OutputConfigurationParameter3
@@ -408,17 +408,17 @@ OutputName19=ALCT_MEZ_LX100_pcb_print_2v5
 OutputCategory19=Documentation
 OutputDocumentPath19=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName19=
-OutputEnabled19=1
+OutputEnabled19=0
 OutputEnabled19_OutputMedium1=0
 OutputEnabled19_OutputMedium2=0
-OutputEnabled19_OutputMedium3=10
+OutputEnabled19_OutputMedium3=9
 OutputEnabled19_OutputMedium4=9
 OutputEnabled19_OutputMedium5=0
 OutputEnabled19_OutputMedium6=0
 OutputDefault19=0
 PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
 Configuration19_Name1=OutputConfigurationParameter1
-Configuration19_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491535|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration19_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration19_Name2=OutputConfigurationParameter2
 Configuration19_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration19_Name3=OutputConfigurationParameter3
@@ -431,17 +431,17 @@ OutputName20=ALCT_MEZ_LX100_pcb_print_in7
 OutputCategory20=Documentation
 OutputDocumentPath20=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName20=
-OutputEnabled20=1
+OutputEnabled20=0
 OutputEnabled20_OutputMedium1=0
 OutputEnabled20_OutputMedium2=0
-OutputEnabled20_OutputMedium3=11
+OutputEnabled20_OutputMedium3=10
 OutputEnabled20_OutputMedium4=10
 OutputEnabled20_OutputMedium5=0
 OutputEnabled20_OutputMedium6=0
 OutputDefault20=0
 PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
 Configuration20_Name1=OutputConfigurationParameter1
-Configuration20_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491535|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration20_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration20_Name2=OutputConfigurationParameter2
 Configuration20_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=False|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration20_Name3=OutputConfigurationParameter3
@@ -454,17 +454,17 @@ OutputName21=ALCT_MEZ_LX100_pcb_print_gnd
 OutputCategory21=Documentation
 OutputDocumentPath21=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName21=
-OutputEnabled21=1
+OutputEnabled21=0
 OutputEnabled21_OutputMedium1=0
 OutputEnabled21_OutputMedium2=0
-OutputEnabled21_OutputMedium3=12
+OutputEnabled21_OutputMedium3=11
 OutputEnabled21_OutputMedium4=11
 OutputEnabled21_OutputMedium5=0
 OutputEnabled21_OutputMedium6=0
 OutputDefault21=0
 PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
 Configuration21_Name1=OutputConfigurationParameter1
-Configuration21_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491535|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration21_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration21_Name2=OutputConfigurationParameter2
 Configuration21_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration21_Name3=OutputConfigurationParameter3
@@ -492,17 +492,17 @@ OutputName23=ALCT_MEZ_LX100_pcb_print_lybot
 OutputCategory23=Documentation
 OutputDocumentPath23=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName23=
-OutputEnabled23=1
+OutputEnabled23=0
 OutputEnabled23_OutputMedium1=0
 OutputEnabled23_OutputMedium2=0
-OutputEnabled23_OutputMedium3=13
+OutputEnabled23_OutputMedium3=12
 OutputEnabled23_OutputMedium4=12
 OutputEnabled23_OutputMedium5=0
 OutputEnabled23_OutputMedium6=0
 OutputDefault23=0
 PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
 Configuration23_Name1=OutputConfigurationParameter1
-Configuration23_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491535|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration23_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration23_Name2=OutputConfigurationParameter2
 Configuration23_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration23_Name3=OutputConfigurationParameter3
@@ -515,17 +515,17 @@ OutputName24=ALCT_MEZ_LX100_pcb_print_lybot_mirror
 OutputCategory24=Documentation
 OutputDocumentPath24=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName24=
-OutputEnabled24=1
+OutputEnabled24=0
 OutputEnabled24_OutputMedium1=0
 OutputEnabled24_OutputMedium2=0
-OutputEnabled24_OutputMedium3=18
+OutputEnabled24_OutputMedium3=13
 OutputEnabled24_OutputMedium4=13
 OutputEnabled24_OutputMedium5=0
 OutputEnabled24_OutputMedium6=0
 OutputDefault24=0
 PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
 Configuration24_Name1=OutputConfigurationParameter1
-Configuration24_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491535|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration24_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration24_Name2=OutputConfigurationParameter2
 Configuration24_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=True|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration24_Name3=OutputConfigurationParameter3
@@ -538,17 +538,17 @@ OutputName25=ALCT_MEZ_LX100_pcb_print_drill
 OutputCategory25=Documentation
 OutputDocumentPath25=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName25=
-OutputEnabled25=1
+OutputEnabled25=0
 OutputEnabled25_OutputMedium1=0
 OutputEnabled25_OutputMedium2=0
-OutputEnabled25_OutputMedium3=15
+OutputEnabled25_OutputMedium3=14
 OutputEnabled25_OutputMedium4=14
 OutputEnabled25_OutputMedium5=0
 OutputEnabled25_OutputMedium6=0
 OutputDefault25=0
 PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
 Configuration25_Name1=OutputConfigurationParameter1
-Configuration25_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491535|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration25_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration25_Name2=OutputConfigurationParameter2
 Configuration25_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration25_Name3=OutputConfigurationParameter3
@@ -561,17 +561,17 @@ OutputName26=ALCT_MEZ_LX100_pcb_print_silk_top
 OutputCategory26=Documentation
 OutputDocumentPath26=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName26=
-OutputEnabled26=1
+OutputEnabled26=0
 OutputEnabled26_OutputMedium1=0
 OutputEnabled26_OutputMedium2=0
-OutputEnabled26_OutputMedium3=1
+OutputEnabled26_OutputMedium3=15
 OutputEnabled26_OutputMedium4=15
 OutputEnabled26_OutputMedium5=0
 OutputEnabled26_OutputMedium6=0
 OutputDefault26=0
-PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
+PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
 Configuration26_Name1=OutputConfigurationParameter1
-Configuration26_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491535|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration26_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration26_Name2=OutputConfigurationParameter2
 Configuration26_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=False|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration26_Name3=OutputConfigurationParameter3
@@ -584,17 +584,17 @@ OutputName27=ALCT_MEZ_LX100_pcb_print_silk_bottom
 OutputCategory27=Documentation
 OutputDocumentPath27=ALCT_MEZ_LX100.PcbDoc
 OutputVariantName27=
-OutputEnabled27=1
+OutputEnabled27=0
 OutputEnabled27_OutputMedium1=0
 OutputEnabled27_OutputMedium2=0
-OutputEnabled27_OutputMedium3=14
+OutputEnabled27_OutputMedium3=16
 OutputEnabled27_OutputMedium4=16
 OutputEnabled27_OutputMedium5=0
 OutputEnabled27_OutputMedium6=0
 OutputDefault27=0
-PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
+PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
 Configuration27_Name1=OutputConfigurationParameter1
-Configuration27_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3507244|PrintAreaLowerLeftCornerY=665079|PrintAreaUpperRightCornerX=104491496|PrintAreaUpperRightCornerY=59818622|Record=PcbPrintView
+Configuration27_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=3210000|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=105370000|PrintAreaUpperRightCornerY=63170000|Record=PcbPrintView
 Configuration27_Name2=OutputConfigurationParameter2
 Configuration27_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=False|Index=0|Mirror=True|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration27_Name3=OutputConfigurationParameter3
@@ -710,7 +710,7 @@ OutputFileName6=
 OutputFileNameMulti6=
 UseOutputNameForMulti6=1
 OutputFileNameSpecial6=
-OpenOutput6=1
+OpenOutput6=0
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=D:\Dropbox\CMS\OALCT\LX100\Project Outputs for ALCT_MEZ_LX100\PDF Schematic Prints\
@@ -730,7 +730,7 @@ OpenNCDrillOutput5=0
 OpenIPCOutput5=0
 EnableReload5=0
 RelativeOutputPath6=D:\Dropbox\CMS\OALCT\LX100\Project Outputs for ALCT_MEZ_LX100\
-OpenOutputs6=1
+OpenOutputs6=0
 AddToProject6=1
 TimestampFolder6=0
 UseOutputName6=0
