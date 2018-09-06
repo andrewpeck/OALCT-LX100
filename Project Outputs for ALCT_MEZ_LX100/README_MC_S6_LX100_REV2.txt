@@ -18,7 +18,7 @@ Specifications:
 ---------------
 Layers:               12
 Board thickness:      0.06256"
-Board size:           4.100" x 5.785"
+Board size:           4.100" x 5.875"
 Min. Trace width/gap  3.5/4.0 mils
 Plating:              ENIG
 
